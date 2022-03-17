@@ -8,7 +8,10 @@
 
 body {
   background-color: #fff;
-  font-family: sans-serif;
+  background-image: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Fredoka', sans-serif;
   font-weight: 400;
   min-height: 100vh;
   display: flex;
@@ -16,6 +19,9 @@ body {
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
 }
 
