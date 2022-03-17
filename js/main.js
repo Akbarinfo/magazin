@@ -70,7 +70,6 @@ let tex = 0;
 let total = 0;
 
 
-
 for(let i = 0; i < elBtnAdd.length; i++) {
   elBtnAdd[i].addEventListener('click', ()=> {
     arrShopNew[arrShopNew.length] = arrShop[i];
