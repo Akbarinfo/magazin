@@ -167,6 +167,13 @@ html {
   color: #fff;
   padding: 5px 25px;
   cursor: pointer;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.shop__btn:hover {
+  background-color: #880bdb;
+  border-color: #880bdb;
 }
 
 .shop__cart {
