@@ -149,7 +149,8 @@
 
   }
 
-  &__delbtn {
+  &__delbtn,
+  &__plus {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -164,6 +165,9 @@
   }
 
   &__plus {
+    top: 40px;
+  }
+  &__count {
     position: absolute;
     top: 5px;
     left: 5px;

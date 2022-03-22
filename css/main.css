@@ -220,7 +220,7 @@ html {
   font-size: 19px;
 }
 
-.shop__delbtn {
+.shop__delbtn, .shop__plus {
   position: absolute;
   top: 5px;
   right: 5px;
@@ -237,6 +237,10 @@ html {
 }
 
 .shop__plus {
+  top: 40px;
+}
+
+.shop__count {
   position: absolute;
   top: 5px;
   left: 5px;
